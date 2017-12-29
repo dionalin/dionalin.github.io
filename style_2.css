@@ -4,18 +4,14 @@ html, body, main {
 	padding: 0px;
 	border: 0px;
 	}
-@font-face {
-    font-family: 'roboto';
-    src: url(font/roboto-light.ttf);
-    }
 body {
-    font-family: 'roboto', Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     color: #333333;
+      font-weight: 300;
 	}
- h1, h2, h3, h4, h5, h6, p, li, ul, ol, a {
+ h1, h2, h3, p, li, ul, ol {
 	 margin: 0;
 	 padding: 0;
-	 font-family: 'roboto', Helvetica, sans-serif;
 	 }
  a {
     text-decoration: none;
@@ -26,19 +22,18 @@ body {
 
 /* Text Styles */
 h1 {
-    font-weight: normal;
+    font-weight: 300;
     font-size: 34px;
     }
 h2 {
-    font-weight: normal;
+    font-weight: 300;
     font-size: 24px;
     }
 h3 {
-    font-weight: normal;
+    font-weight: 300;
     font-size: 16px;
     }
 p {
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     }
@@ -156,7 +151,7 @@ footer {
     align-items: center;
 }
 footer a {
-    font-family: roboto-medium;
+    font-weight: 500;
 }
 /* End of Footer Layout */
 
@@ -234,7 +229,7 @@ article:after {
   }
 }
 .article_title h2{
-    font-family: roboto-medium;
+    font-weight: 500;
 }
 .btm_msg {
     margin-top: 20px;
@@ -334,7 +329,7 @@ article:after {
     width: 100%;
     }
 .intro_title h1 {
-    font-family: roboto-medium;
+    font-weight: 500;
     }
 .main_intro_box .content_box {
     border-left: 0.5px solid #999;
@@ -382,7 +377,7 @@ article:after {
 
 
 .content_box h3{
-	font-family: roboto-medium;
+	font-weight: 500;
 }
 .content_img_box {
 	margin-bottom: 24px;
