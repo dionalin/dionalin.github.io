@@ -237,6 +237,11 @@ article:after {
 .project_main .btm_msg h2 {
     text-transform: none;
 }
+@media (max-width: 1000px) {
+    .project_main .btm_msg h2 {
+    padding: 0 16px;
+    }
+}
 /* End of Index Projects */
 
 /* UI Collection Layout */
