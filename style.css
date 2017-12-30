@@ -331,6 +331,9 @@ article:after {
 .intro_title h1 {
     font-weight: 500;
     }
+.intro_title p {
+    font-weight: 300;
+    }
 .main_intro_box .content_box {
     border-left: 0.5px solid #999;
     padding-left: 16px;
