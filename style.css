@@ -478,6 +478,9 @@ article:after {
 .main_aboutme .main_intro_box{
     max-width: 1000px;
 }
+.main_aboutme b {
+    font-weight: 500;
+}
 @media (min-width: 700px)  {
     .main_aboutme .intro_left {
     width: 600px;
