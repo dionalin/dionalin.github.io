@@ -22,9 +22,9 @@ body {
 
 /* Text Styles */
 h1 {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 34px;
-    line-height: 1.4em;
+    line-height: 52px;
     }
 h2 {
     font-weight: 300;
@@ -263,8 +263,8 @@ article:after {
 @media (max-width: 900px) {
     .project_main .btm_msg h1 {
     padding: 0 16px;
-    font-size: 24px;
-    line-height: 32px;
+    font-weight: 500;
+    text-align: left;
     }
 }
 /* End of Index Projects */
